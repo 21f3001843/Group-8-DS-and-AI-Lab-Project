@@ -80,4 +80,5 @@ A comprehensive set of comparative metrics (AUROC, False Negative Rate, Expected
 
 <img width="107" height="58" alt="Screenshot 2026-10-22 225932" src="https://github.com/user-attachments/assets/320ec95a-c2cd-4993-a90c-e27b299e08dc" />
 <img width="113" height="49" alt="Screenshot 2026-10-22 230005" src="https://github.com/user-attachments/assets/0ce6fb73-133d-42c4-aca1-76438a03927a" />
+<img width="134" height="61" alt="Screenshot 2026-10-22 230217" src="https://github.com/user-attachments/assets/9c40007c-abfa-4d36-a34d-683267aef06a" />
 
