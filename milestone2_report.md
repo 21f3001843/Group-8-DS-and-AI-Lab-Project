@@ -137,14 +137,15 @@ Counts below are image-level, over all frontal images of each source (CheXpert 1
 In CheXpert most "negative" labels are blanks rather than explicit negatives. The raw breakdown before imputation is shown in Section 3.3.
 
 ## 2.5 Sample images
+<img width="1192" height="417" alt="Screenshot 2026-10-31 162301" src="https://github.com/user-attachments/assets/83c71f01-560d-41d0-af41-ca393c398703" />
+_\[Insert Figure 1: 12-image grid after preprocessing (top row CheXpert, bottom row NIH). Source: Step 2 check cell.\]_
 
-_Figure 1. Sample CheXpert images at the native size of the Kaggle copy (390 x 320 pixels). Top row: random images. Bottom row: lowest-contrast images in the 1,000-image sample. The images are shown as they are provided in the dataset copy used (already histogram equalised, see Section 3.5)._
+<img width="1200" height="482" alt="Screenshot 2026-10-31 162247" src="https://github.com/user-attachments/assets/4136ab9c-4787-42a6-a3f7-62fd9590213d" />
 
-_\[Insert Figure 2: random sample grid of NIH images (one row), before preprocessing. Source: Phase 2 sampling cell.\]_
+<img width="1206" height="388" alt="Screenshot 2026-10-31 162204" src="https://github.com/user-attachments/assets/a01d5b82-376b-4e50-a7c9-2ac04d608423" />
 
-_\[Insert Figure 3: one example image per selected label (Pleural Effusion, Cardiomegaly, Pneumothorax, Atelectasis, Consolidation, Lung Lesion) and one No Finding example, for each source.\]_
+_\[Insert Figure 2: NIH and CheXpert label similarity. Source: Phase 2 sampling cell.\]_
 
-_\[Insert Figure 4: 12-image grid after preprocessing (top row CheXpert, bottom row NIH). Source: Step 2 check cell.\]_
 
 ## 2.6 Localisation annotations
 
