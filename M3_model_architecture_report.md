@@ -176,7 +176,12 @@ Compute: three backbones, three uncertain policies, ensembles and several setups
 
 Figure 1 shows the model architecture. Figure 2 shows the complete pipeline, including the training setups, the localisation check on NIH boxes, the test on CheXphoto photos and the recapture loop.
 
+
+<img width="652" height="527" alt="image" src="https://github.com/user-attachments/assets/067737bb-f3c0-4ff7-98d3-39de57a2075a" />
+
 Figure 1. Model architecture. The input is resized, histogram equalised, converted to three channels and ImageNet-normalised. An ImageNet-pretrained backbone (initialised with weights learned on natural images and then fine-tuned on chest X-rays) feeds a classification head in all setups and an optional box-supervised patch head in Setup E. An ensemble with temperature scaling produces calibrated probabilities and an uncertainty estimate; Grad-CAM ++ provides the region map.
+
+<img width="533" height="637" alt="image" src="https://github.com/user-attachments/assets/2c1de738-1d09-4efe-b2a6-77e82d659f80" />
 
 Figure 2. Complete pipeline and setups. Setups A, B, C and E are trained as in step 1; localisation is validated on NIH boxed images (step 2); the model is tested on CheXphoto photos (step 3); and the recapture criteria are checked (step 4). If recapture is required, the second version is classified and combined with the first prediction (steps 5 to 7), after which the criteria are checked again. The loop continues until the criteria are no longer met or the pre-set recapture limit is reached.
 
@@ -244,8 +249,4 @@ Figure 2. Complete pipeline and setups. Setups A, B, C and E are trained as in s
 
 [18] Li Z., Wang C., Han M., Xue Y., Wei W., Li L.-J., Fei-Fei L. Thoracic Disease Identification and Localization with Limited Supervision. CVPR 2018 (arXiv:1711.06373).
 
-
-## Figures
-
-
-The source Word document contains 2 embedded figure image(s). They are not embedded in this Markdown file; retain the Word document for the original figures.
+<img width="113" height="49" alt="Screenshot 2026-10-22 230005" src="https://github.com/user-attachments/assets/fa081b35-091e-4aec-bb30-667f4a1ee1c6" />
